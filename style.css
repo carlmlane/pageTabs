@@ -1,0 +1,11 @@
+h3 {
+    text-align: center;
+}
+
+.panel {
+    height: 100%;
+}
+
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
