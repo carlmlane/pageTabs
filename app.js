@@ -16,30 +16,30 @@ pageTabs.controller('TabsetCtrl', ['$scope', '$rootScope',
     function ($scope, $rootScope) {
         $scope.tabs = [
             {
-                "heading": "Tab 1",
+                "heading": "Photo Carousel",
                 "active": true,
                 "template": "tab1.html"
             },
             {
-                "heading": "Tab 2",
+                "heading": "Buttons",
                 "active": false,
                 "template": "tab2.html"
             },
             {
-                "heading": "Tab 3",
+                "heading": "Modals",
                 "active": false,
                 "template": "tab3.html"
             },
-            //{
-            //    "heading": "Tab 4",
-            //    "active": false,
-            //    "template":"tab4.html"
-            //},
-            //{
-            //    "heading": "Tab 5",
-            //    "active": false,
-            //    "template":"tab5.html"
-            //}
+            {
+                "heading": "Typography",
+                "active": false,
+                "template": "tab4.html"
+            },
+            {
+                "heading": "Tables/Forms",
+                "active": false,
+                "template": "tab5.html"
+            }
         ];
     }]);
 

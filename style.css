@@ -1,6 +1,7 @@
-h3 {
+body {
     text-align: center;
 }
+
 
 .panel {
     height: 100%;
@@ -8,4 +9,8 @@ h3 {
 
 .nav, .pagination, .carousel, .panel-title a {
     cursor: pointer;
+}
+
+.container {
+
 }
